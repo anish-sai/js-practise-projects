@@ -39,3 +39,46 @@ h1 {
     padding: 6px;
     border-radius: 8px;
 }
+
+
+.cell {
+    background: #1a2028;
+    border: none;
+    font-size: 48px;
+    font-weight: 700;
+    color: #f1f5f9;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cell:hover:not(:disabled) {
+    background: #243042;
+}
+
+.cell:disabled {
+    cursor: not-allowed;
+}
+
+.x {
+    color: #60a5fa;
+}
+
+.o {
+    color: #f87171;
+    
+}
+
+button.reset {
+    margin-top: 20px;
+    padding: 10px 24px;
+    font-size: 15px;
+    background: #16a34a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button.reset:hover {
+    background: #15803d;
+}
