@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    max-width: 720px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #0f1419;
+    color: #e6e6e6;
+}
+
+h1 {
+    text-align: center;
+    color: #4ade80;
+}
+
+.question {
+    background: #1a2028;
+    border: 1px solid #2a3340;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 14px;
+}
+
+.question p {
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: #f1f5f9;
+}
+
+.options label {
+    display: block;
+    padding: 6px 10px;
+    margin: 4px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #cbd5e1;
+}
+
+.options label:hover {
+    background: #243042;
+}
+
+.options input {
+    margin-right: 8px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 30px;
+    font-size: 16px;
+    background: #16a34a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #15803d;
+}
+
+.correct {
+    background: #14532d !important;
+    color: #d4f5dd !important;
+}
+
+.wrong {
+    background: #7f1d1d !important;
+    color: #fbd6d6 !important;
+}
+
+.missed {
+    background: #713f12 !important;
+    color: #fde68a !important;
+}
+
+#result {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    display: none;
+    color: #f1f5f9;
+}
